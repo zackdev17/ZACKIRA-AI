@@ -1,0 +1,8 @@
+node_modules/
+session/
+database/
+bin/
+.env
+cookies*.txt
+
+.protect-key.local

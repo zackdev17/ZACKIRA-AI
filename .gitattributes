@@ -1,0 +1,4 @@
+DONT_DELETE.ts filter=protect -diff -text
+lib/guard.js filter=protect -diff -text
+scripts/updateGuard.js filter=protect -diff -text
+MADE BY ZACK.tsx filter=protect -diff -text

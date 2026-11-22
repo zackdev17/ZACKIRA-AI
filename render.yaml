@@ -1,0 +1,26 @@
+# ZACKIRA AI - WhatsApp bot with AI, made by ZACK
+# (c) 2026 ZACK. Free and open source.
+#
+# Don't sell this script or re-upload it without my permission.
+# If you modify or share it, keep this header and credit me as the original author.
+# Please don't remove or change the watermark.
+
+services:
+  - type: web
+    name: whatsapp-ai-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PAIRING_NUMBER
+        sync: false
+      - key: OWNER_NUMBERS
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: PROTECT_KEY
+        sync: false # isi dengan konten file .protect-key.local (jangan pernah commit nilainya ke git)

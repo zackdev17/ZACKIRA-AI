@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-ai-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp dengan login pairing code + balasan AI (rich response: code block & tabel)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/decrypt-for-deploy.js && node index.js",
+    "guard": "node scripts/updateGuard.js",
+    "protect:install": "node scripts/install-protect.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@napi-rs/canvas": "^1.1.0",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "dejavu-fonts-ttf": "^2.37.3",
+    "jimp": "^1.6.1",
+    "mongodb": "^6.22.0",
+    "pino": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
