@@ -1,13 +1,2 @@
-/*
- * ZACKIRA AI - WhatsApp bot with AI, made by ZACK
- * (c) 2026 ZACK. Free and open source.
- *
- * Don't sell this script or re-upload it without my permission.
- * If you modify or share it, keep this header and credit me as the original author.
- * Please don't remove or change the watermark.
- */
-
-export const PROJECT = 'ZACKIRA AI';
-export const DEVELOPER = 'ZACK';
-export const Contact = '62-896-0686-0329';
-export const NOTE = 'JANGAN HAPUS ATAU UBAH FILE INI. Bot tidak akan berjalan tanpa file ini.';
+##PROTECTED-AES256GCM##
+0x9ddf6//9f48//d184337c//4d0a7e//ba670d6//e568c//eb2f//fa2a99d7//32cf7c//d43e218//a8aa7//de1a//0b418780//90d582//d25a500//c3b1a//4e12//454f85b4//7a05b0//0c1400a//977d4//2230//72c120c2//1ff0b7//21a4f15//f33b0//da5f//4eb52e51//0e8080//8f94fde//b608d//2ad7//54044824//f3451d//f21d34f//3d25b//69db//c73a3365//f55231//a59e0cd//a3e96//8e3d//328cc730//66b849//9822553//c4e5f//71df//992f5b13//e095dc//ed80507//59913//3631//a22fdb17//e75edf//047dd66//b88ea//fe94//97dfbb19//92611e//09880b6//99042//9b45//25028966//994596//d2f93d4//29c4f//ecaa//e8d26b42//a7f4b8//a7c502d//21620//c04d//bbd87a68//9045c9//9cebc2a//f9937//bda1//b24aa6d2//7e71bf//43580c0//ac535//d99f//6d53f8a7//73e48b//29424c2//8a2e2//5516//d6bf1c70//6a500a//267625a//7dd38//81a1//6a21e704//c91dc9//c00ded7//a2809//6c1a//dc4b5067//835a45//3df7626//5b7cb//31e4//36e5d5f2//7a68ef//a0be339//4d2d0//8fc1//b55f72ac//67cbdd//db9ffe9//2b1fb//cfac//b38646e3//09c7cc//236948a//277e5//47c3//f3a6e322//650cce//4d244fd//83e1e//e1e2//24b52fd5//9830f0//f50313c//e2b78//682f//f205e639//003589//9c46f57//ed614//4f64//7932791a//403dd0//ccc4d06//4fdcc//26d4//0602ee2c//6e0d17//1a23c48//95380//8778//a805e930//c849bb//92288db//d7443//b342//a0826374//6c3e1f//40c7f43//91ff5//0ed2//6a705e61//de0215//2c9254e//55138//6572//5f946a19//ab26c2//55fe373//fe399//fe09//e744c259//532fb4//f53b292//07ac3//a6b7//ea3c2d6d//45cafb//b152cf4//8ff3a//a542//d22667cf//2232ae//281b9da//55089//5faf//a7dcec87//1122e2//e

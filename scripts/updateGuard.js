@@ -1,26 +1,2 @@
-/*
- * ZACKIRA AI - WhatsApp bot with AI, made by ZACK
- * (c) 2026 ZACK. Free and open source.
- *
- * Don't sell this script or re-upload it without my permission.
- * If you modify or share it, keep this header and credit me as the original author.
- * Please don't remove or change the watermark.
- */
-
-const fs = require('fs');
-const path = require('path');
-const crypto = require('crypto');
-
-const root = path.join(__dirname, '..');
-const guardFile = path.join(root, 'lib', 'guard.js');
-const source = fs.readFileSync(guardFile, 'utf8');
-const name = (source.match(/const GUARD_FILE = '([^']+)'/) || [])[1];
-if (!name) throw new Error('GUARD_FILE tidak ditemukan di lib/guard.js');
-
-const raw = fs.readFileSync(path.join(root, name), 'utf8');
-const hash = crypto.createHash('sha256').update(raw.replace(/\r\n/g, '\n').trimEnd()).digest('hex');
-
-const updated = source.replace(/const GUARD_SHA256 = '[0-9a-f]*';/, `const GUARD_SHA256 = '${hash}';`);
-if (updated === source && !source.includes(hash)) throw new Error('GUARD_SHA256 tidak ditemukan di lib/guard.js');
-fs.writeFileSync(guardFile, updated);
-console.log(`Hash ${name} diperbarui:\n${hash}`);
+##PROTECTED-AES256GCM##
+0x3b899//ad5b//53752a16//ea2a73//201d802//b9829//e4e4//acf0cb6c//55ce73//e0a1b0e//a565c//2545//372902ca//c320b5//afb401f//a044d//ec7f//99d011b3//81c491//c1dcdf9//39a04//a80b//b7647add//e92b9c//9861231//886f4//33e7//85a606e3//b4ed68//06808b3//376f0//be1b//bd152708//51e60e//5d2fd91//7fb06//2766//81bb69fe//a55413//b46af79//9bf74//8a65//00025207//9106de//f22ee24//1a6a1//d3f3//0cb36b9d//196489//13209fc//7cb16//44ed//7c330485//9df9ca//3f64e79//246e9//393b//19467a3b//933180//12fe0a3//de5fe//c54e//eae9cf3c//e2c1fe//da8f5e5//2c1c5//0b07//ff063f04//e34dd0//26fd2da//0ce91//9b92//a391aff8//bb6438//6572d33//0160a//200b//e3d642b6//9b4a23//c73086c//c37c9//b17e//4866ed50//36f267//7d7f868//2121a//323c//69aa30db//bb0106//24ce319//89fe7//c785//a6eece1f//0184b0//a8b132c//5eed7//9774//76265a2e//05b624//e8cbaf3//4f739//96d9//f6fe6481//559411//7869fd4//7fef3//3024//fa4f2589//49e37d//38a9538//3b808//b9d3//1a808bd3//2f7d83//db60a96//1767a//d967//d1dddad8//0afe7f//b65c8fc//b2601//96b5//da1eab7a//7b795a//a2684e4//789d1//5000//d9d2c625//4111b4//db0cf80//f2a40//c5d1//3d93ae86//8d33ea//df41a41//3dee1//04df//ff9a2321//7661fe//aebe529//8d522//c5ff//5c2a1b23//828715//3fec804//9a52c//790f//6e07fbdb//4d7846//75adb37//dd0e1//c7ba//76093377//00385b//9bfe1a8//09d07//e5d1//196db0f3//ff2457//6912a05//4e68a//d149//2886f982//0a8670//051a74e//fdc97//b00d//96f1cff1//6b53f0//858244f//09c5e//9ec3//00761854//6adca5//0793607//4cc27//5fb7//b0bea259//3b12c4//10fc87d//a0cce//2adf//5b4be2fc//f0f52c//2798234//9a2ae//cc98//a0d10e5b//595033//186e492//4fb76//f523//bb7b33ee//a68734//f744b73//9603c//b79d//35735455//e24bd3//3d67408//5217c//ab4f//ce1c59f0//9a478b//0176320//7178e//e561//aef2fe58//7726a3//a24a671//bde84//f0b0//03a0aa7c//9f7668//95e46af//da739//8a93//1176d6a7//65abe7//b3e2922//d48c6//96e4//03e695c7//ef7237//17c3310//a2322//86b8//43f2422b//189d03//ca2259a//58d28//4721//126b6601//c09359//fc882b2//6415a//d6a9//897c939e//49d4a3//53cc115//b34f7//3211//35c6a178//7e58db//db8bff4//ed1e4//c2c5//0ce00bf4//393ef5//c13fb1d//d2600//2077//a71313f7//7fb203//f6dea18//130e1//d214//200f5950//816719//6f044bc//b2877//5926//452c0636//167fa2//9a1f696//adf32//bfd4//bc8c25c7//afb670//80d5d88//efffe//71e2//6c31b941//7b1205//94952ef//6043f//386e//5bfd886b//59ad85//5caeacb//79b4c//01dc//4fb5079e//a86e72//bb15363//51d4f//a1d4//610594aa//da1633//0045031//9c833//ed08//4a0c9255//4bf0fa//8b40bee//ae75b//b2b9//c09c1213//b68974//821b568//d8995//c3c2//36db705a//06c86e//53e06fd//19033//e3ec//223131eb//338be7//b17dfaf//9f16a//e148//452d2460//340c24//e7d5134//df81c//4d82//75b29f4a//dcd418//979c948//6e181//9b73//f6a87b56//700ca9//29364f6//2b37f//b14d//dbb35a0a//5a58f5//7b3829a//b02bf//1a8b//e52ae3ca//b3ce34//146b572//78a76//e021//575aeb2f//49b050//5a256e7//6dd61//8cfb//2cff8524//48c752//10d0e1e//db937//4886//339a9770//6641a9//b40d7d7//33feb//500e//97fede26//7f7762//e9b9192//1ee2e//f434//4cd684d9//8c7afa//8fc4b78//d46f1//3009//51d9cd17//8549bf//556b9d4//5ed5b//7a36//774b2910//7bc016//74387c2//a89cf//9942//882924b4//6618e7//93e4dcf//9d2e1//12fb//d0e365c0//2eeb8c//049bc2e//08c75//31fa//fcdd9aa9//b4150a//9d35e8f//a04fb//4635//f42fc310//1ddb65//0f67f5e//19213//a91d//5e5fd904//d
