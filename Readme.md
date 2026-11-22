@@ -141,7 +141,7 @@ Semua pengaturan dibaca dari `.env` (salinan dari `.env.example`) atau bisa diat
 | `OWNER_NUMBERS` | ya | Nomor owner, pisahkan dengan koma |
 | `PAIRING_NUMBER` | tidak | Nomor bot untuk pairing. Wajib kalau hosting kamu nggak punya terminal interaktif |
 | `BOT_PREFIX` | tidak | Tanda command, bawaannya `.` |
-| `BOT_WEBSITE` | tidak | Link tombol Website di `.menu`. Di bot utama bawaannya `https://zackuplay.web.id`. Di jadibot tombolnya muncul kalau ini diisi |
+| `BOT_WEBSITE` | tidak | Link tombol Website di `.menu`. Di bot utama bawaannya `https://zackofficialdev.my.id` Di jadibot tombolnya muncul kalau ini diisi |
 | `PREMIUM_TOOLS` | tidak | Daftar tool AI yang khusus premium, contoh `generate_image,draw_image`. Kosong berarti nggak ada |
 | `SESSION_DIR` | tidak | Folder sesi WhatsApp, bawaannya `session` |
 | `MONGODB_URI` | tidak | Simpan sesi dan data sewa di MongoDB (buat hosting tanpa disk permanen) |
