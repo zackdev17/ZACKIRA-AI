@@ -1,1 +1,1 @@
-
+Copy/download cookies.txt YouTube dengan devtools. (contoh extensi: get cookies.txt LOCALLY)
