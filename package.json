@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-ai-bot",
-  "version": "1.0.0",
-  "description": "Bot WhatsApp dengan login pairing code + balasan AI (rich response: code block & tabel)",
+  "name": "zackira-ai",
+  "version": "1.1.0",
+  "description": "Bot WhatsApp Modern",
   "main": "index.js",
   "scripts": {
     "start": "node scripts/decrypt-for-deploy.js && node index.js",
